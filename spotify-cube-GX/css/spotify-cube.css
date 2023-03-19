@@ -1,0 +1,66 @@
+:root {
+	--is-active-fg-color: #871dff !important;
+	--fg-color: #46078d9a !important;
+	--bg-color: #3a04ff67 !important;
+	--background-base: #1fabec !important;
+	--background-highlight: #029de6 !important;
+}
+
+.encore-dark-theme .encore-bright-accent-set {
+	--background-base: #1fabec !important;
+	--background-highlight: #029de6 !important;
+}
+
+.Root {
+	background-image: url("https://cdn.jsdelivr.net/gh/RaSan147/test_workflow@16fae25201bf91f9ca7eb36fab1e56853463ed2d/img/cool%20bg.webp");
+	
+	background-repeat:no-repeat;
+
+	background-size:cover;
+}
+
+.Root__nav-bar {
+	background-color: #00000099 !important;
+}
+
+main:first-child, .HsbczDqu9qjcYr7EIdHR {
+	background-color: #0000000a !important;
+	background-image: none !important;
+}
+
+footer {
+	background-color: #0000000a !important;
+}
+
+div[data-testid="progress-bar-background"] {
+	border: #ff0303c2 1px solid !important;
+}
+
+div[data-testid="progress-bar"] {
+	--is-active-fg-color: #871dff !important;
+	--fg-color: #46078d9a !important;
+}
+
+div[data-testid="grid-container"]>div {
+	background-color: #0000000a !important;
+}
+
+nav[data-testid="footer-div"] {
+	opacity: 0 !important;
+}
+
+
+button[role="switch"][aria-checked=true] {
+	color: #1fabec !important;
+}
+
+
+
+.contentSpacing>div {
+	background-color: #00000000 !important;
+}
+
+.contentSpacing+div {
+	background-color: #00000010 !important;
+	background-image: none !important;
+}
