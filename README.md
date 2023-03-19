@@ -1,7 +1,9 @@
 # spotify-cube
 spotify custom theme (CUBE)
 
-![image](https://user-images.githubusercontent.com/34002411/226182247-43b8ae52-2e09-43f1-a4fc-0411e7e02621.png)
+
+![image_2023-03-19_202323313-min](https://user-images.githubusercontent.com/34002411/226182653-000c71fb-ff6f-4868-9869-bccc8543c68f.jpg)
+
 
 # To install:
 1. Download latest  .crx file from [Release Page](https://github.com/GX-Custom-Extensions/spotify-cube/releases)
