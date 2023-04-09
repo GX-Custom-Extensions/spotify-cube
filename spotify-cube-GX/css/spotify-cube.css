@@ -9,6 +9,24 @@
 .encore-dark-theme .encore-bright-accent-set {
 	--background-base: #1fabec !important;
 	--background-highlight: #029de6 !important;
+	--background-press: #0960c4 !important;
+	--background-elevated-base: #1fabec !important;
+	--background-elevated-highlight: #029de6 !important;
+	--background-elevated-press: #054c9c !important;
+	--background-tinted-base: #1fabec !important;
+	--background-tinted-highlight: #029de6 !important;
+	--background-tinted-press: #054c9c !important;
+	--background-unsafe-for-small-text-base: #1fabec !important;
+	--background-unsafe-for-small-text-highlight: #029de6 !important;
+	--background-unsafe-for-small-text-press: #054c9c !important;
+	--decorative-subdued: #0c67f0 !important;
+}
+
+.encore-dark-theme, .encore-dark-theme .encore-bright-accent-set {
+	--text-bright-accent: #5609e4 !important;
+	--text-positive: #3284ff !important;
+	--essential-bright-accent: #2daafd !important;
+	--essential-positive: #3284ff !important;
 }
 
 .Root {
@@ -22,6 +40,23 @@
 .Root__nav-bar {
 	background-color: #00000099 !important;
 }
+
+
+.Root__top-bar > header > div {
+	background-color: #00000000 !important;
+}
+
+.Root__top-bar > header > div:first-child {
+	background-color: #000000dc !important;
+}
+
+/* button[data-testid="top-bar-back-button"], button[data-testid="top-bar-forward-button"]{
+	background-color: #00000000 !important;
+}
+
+button[data-testid="top-bar-back-button"]:hover, button[data-testid="top-bar-forward-button"]:hover{
+	background-color: #00255500 !important;
+} */
 
 main:first-child, .HsbczDqu9qjcYr7EIdHR {
 	background-color: #0000000a !important;
@@ -50,9 +85,14 @@ nav[data-testid="footer-div"] {
 }
 
 
-button[role="switch"][aria-checked=true] {
-	color: #1fabec !important;
+
+button[role="switch"][data-testid="add-button"] {
+	color: #47C560 !important;
+	fill: #47C560 !important;
+	/* hue will make it blue!! */
+	filter: hue-rotate(90deg) !important;
 }
+
 
 
 
@@ -60,7 +100,52 @@ button[role="switch"][aria-checked=true] {
 	background-color: #00000000 !important;
 }
 
-.contentSpacing+div {
+/* NEXT element of .contentSpacing */
+.contentSpacing + div { 
 	background-color: #00000010 !important;
 	background-image: none !important;
 }
+
+/* 1st child of NEXT element of .contentSpacing */
+.contentSpacing + div > div:first-child { 
+	background-color: #01001856 !important;
+	background-image: none !important;
+}
+
+/* ul inside div with id=context-menu */
+#context-menu ul {
+	background-color: #2e0049f3 !important;
+}
+
+li[role="presentation"] button:hover {
+	background-color: #180157 !important;
+}
+
+/* li inside ul inside div with id=context-menu */
+li[role="presentation"] button[role="menuitem"][aria-expanded=true] ul {
+	background-color: #180157 !important;
+}
+
+/* recent searches cards */
+.LunqxlFIupJw_Dkx6mNx {
+	background-color: #00000060 !important;
+}
+
+/* Top search result card */
+div[data-testid="top-result-card"] > div {
+	background-color: #0000007c !important;
+}
+
+
+/* title of current playing song */
+.h4HgbO_Uu1JYg5UGANeQ.iSbqnFdjb1SuyJ3uWydl:hover .VpYFchIiPg3tPhBGyynT, .h4HgbO_Uu1JYg5UGANeQ.iSbqnFdjb1SuyJ3uWydl:hover .t_yrXoUO3qGsJS4Y6iXX {
+	color: #53c7fd !important;
+}
+
+/* the jumpy jumpy bars */
+/* use hue to change color */
+div[role="gridcell"] > div > img{
+	filter: hue-rotate(90deg) !important;
+}
+
+
